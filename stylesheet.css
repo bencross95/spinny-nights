@@ -35,6 +35,31 @@ body {
   max-width: 1400px;
 }
 
+
+
+.logo {
+  text-align: right;
+  max-width: 1400px;
+  /* background-color: grey; */
+  position: fixed;
+  right: 10vw;
+  top: 40px;
+  margin-top: auto;
+  margin-bottom: auto;
+  transform: rotate(180deg);
+
+  -webkit-animation:spin2 90s linear infinite;
+  -moz-animation:spin2 90s linear infinite;
+  animation:spin2 90s linear infinite;
+
+}
+
+
+@-moz-keyframes spin2 { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin2 { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin2 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
 .date {
   /* background-color: yellow; */
   font-size: 62px;
@@ -60,6 +85,10 @@ body {
   font-weight: bold;
 }
 
+.tickets:hover {
+  font-style: italic;
+}
+
 article {
   display: inline;
 }
@@ -78,8 +107,7 @@ article {
 
 .upcoming {
   /* background-color: #FCFCFC; */
-  margin-top: 10vh;
-
+  margin-top: 300px;
   position: relative;
 }
 
@@ -89,6 +117,8 @@ article {
   margin-top: -5px;
   height: 72px;
   width: 72px;
+
+
   -webkit-animation:spin 30s linear infinite;
   -moz-animation:spin 30s linear infinite;
   animation:spin 30s linear infinite;
@@ -99,10 +129,7 @@ article {
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
-.upcoming-body {
-  /* background-color: #FCFCFC; */
-  margin-top: 10vh;
-}
+
 
 .date {
   font-style: italic;
@@ -123,6 +150,12 @@ h2 {
   font-size: 62px;
   font-weight: normal;
 }
+
+h3 {
+  font-size: 62px;
+  font-weight: normal;
+}
+
 
 
 @media only screen and (max-width: 1200px) {
@@ -171,6 +204,31 @@ h2 {
   .upcoming-body {
     /* background-color: #FCFCFC; */
     margin-top: 5vh;
+  }
+
+  .logo {
+    text-align: right;
+    max-width: 1400px;
+    /* background-color: grey; */
+    position: fixed;
+    right: 10vw;
+    left: 10vw;
+    top: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 30px;
+    transform: rotate(-3deg);
+
+    -webkit-animation:spin2 10000s linear infinite;
+    -moz-animation:spin2 10000s linear infinite;
+    animation:spin2 10000s linear infinite;
+
+  }
+
+  .upcoming {
+    /* background-color: #FCFCFC; */
+    margin-top: 150px;
+    position: relative;
   }
 
 }
