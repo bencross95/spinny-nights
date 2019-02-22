@@ -148,8 +148,28 @@ article {
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+.previous-icon {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -5px;
+  height: 72px;
+  width: 72px;
 
 
+  -webkit-animation:spin3 30s linear infinite;
+  -moz-animation:spin3 30s linear infinite;
+  animation:spin3 30s linear infinite;
+}
+
+@-moz-keyframes spin3 { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin3 { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin3 { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+.previous {
+  /* background-color: #FCFCFC; */
+  margin-top: 120px;
+  position: relative;
+}
 
 .date {
   font-style: italic;
@@ -221,7 +241,21 @@ h3 {
   width: 40px;
   }
 
+  .previous-icon {
+    position: relative;
+    margin-left: -0px;
+    margin-top: -5px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
+  }
+
   .upcoming-body {
+    /* background-color: #FCFCFC; */
+    margin-top: 5vh;
+  }
+
+  .previous-body {
     /* background-color: #FCFCFC; */
     margin-top: 5vh;
   }
