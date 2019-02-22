@@ -6,6 +6,7 @@ imagesArray = [
 
 function imageHover(index) {
   document.body.style.backgroundImage = `url(${imagesArray[index]})`;
+  document.body.style.backgroundColor = "#000";
   document.getElementById(`date-${index}`).style.color = "#FFFFFF";
   document.getElementById(`event-name-${index}`).style.color = "#FFFFFF";
   document.getElementById(`manicule-${index}`).style.color = "#FFFFFF";
@@ -16,6 +17,7 @@ function imageHover(index) {
 
 function imageReset(index) {
   document.body.style.backgroundImage = "";
+  document.body.style.backgroundColor = "";
   document.getElementById(`date-${index}`).style.color = "";
   document.getElementById(`event-name-${index}`).style.color = "";
   document.getElementById(`manicule-${index}`).style.color = "";
