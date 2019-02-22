@@ -1,0 +1,176 @@
+@font-face {
+  font-family: 'Steinbeck Regular';
+  src:  url('fonts/Steinbeck Regular.woff') format('woff');
+
+}
+
+@font-face {
+  font-family: 'Steinbeck Italic';
+  src:  url('fonts/Steinbeck Italic.woff') format('woff');
+
+}
+
+
+
+body {
+  font-family: 'Steinbeck Regular', -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+
+
+.events-content {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  max-width: 1400px;
+}
+
+.date {
+  /* background-color: yellow; */
+  font-size: 62px;
+  font-family: Steinbeck Italic;
+}
+
+.event-name {
+  /* background-color: white; */
+  font-size: 62px;
+  font-family: Steinbeck Regular;
+}
+
+.manicule {
+  /* background-color: red; */
+  font-size: 62px;
+  font-family: Steinbeck Regular;
+}
+
+.tickets {
+  /* background-color: purple; */
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+article {
+  display: inline;
+}
+
+.em {
+  display: inline;
+}
+
+.the-em {
+  width: 103px;
+  position: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.upcoming {
+  /* background-color: #FCFCFC; */
+  margin-top: 10vh;
+
+  position: relative;
+}
+
+.upcoming-icon {
+  position: absolute;
+  margin-left: -100px;
+  margin-top: -5px;
+  height: 72px;
+  width: 72px;
+  -webkit-animation:spin 30s linear infinite;
+  -moz-animation:spin 30s linear infinite;
+  animation:spin 30s linear infinite;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+.upcoming-body {
+  /* background-color: #FCFCFC; */
+  margin-top: 10vh;
+}
+
+.date {
+  font-style: italic;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* a:hover {
+  color: white;
+} */
+
+
+
+h2 {
+  font-size: 62px;
+  font-weight: normal;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .upcoming-icon {
+  position: relative;
+  margin-left: -0px;
+  margin-top: -0px;
+  margin-right: 30px;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .date {
+    font-size: 40px;
+  }
+  .event-name {
+    font-size: 40px;
+  }
+  .manicule {
+    font-size: 40px;
+  }
+  .tickets {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .the-em {
+    width: 103px;
+    position: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+  .upcoming-icon {
+  position: relative;
+  margin-left: -0px;
+  margin-top: -5px;
+  margin-right: 20px;
+  height: 40px;
+  width: 40px;
+  }
+
+  .upcoming-body {
+    /* background-color: #FCFCFC; */
+    margin-top: 5vh;
+  }
+
+}
