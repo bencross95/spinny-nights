@@ -5,6 +5,7 @@ imagesArray = [
 ]
 
 function imageHover(index) {
+  if (window.innerWidth > 900) {
   document.body.style.backgroundImage = `url(${imagesArray[index]})`;
   document.body.style.backgroundColor = "#000";
   document.getElementById(`date-${index}`).style.color = "#FFFFFF";
@@ -14,8 +15,10 @@ function imageHover(index) {
   document.getElementById('logo').style.color = "#FFFFFF";
   // console.log(imagesArray[index]);
 }
+}
 
 function imageReset(index) {
+  if (window.innerWidth > 900) {
   document.body.style.backgroundImage = "";
   document.body.style.backgroundColor = "";
   document.getElementById(`date-${index}`).style.color = "";
@@ -23,4 +26,5 @@ function imageReset(index) {
   document.getElementById(`manicule-${index}`).style.color = "";
   document.getElementById(`article-ticket-${index}`).style.color = "";
   document.getElementById('logo').style.color = "";
+}
 }

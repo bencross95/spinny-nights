@@ -27,7 +27,21 @@ body {
   background-size: 100%;
 }
 
+.footer-text {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  max-width: 1400px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
 
+}
 
 .events-content {
   margin-right: 10vw;
@@ -81,7 +95,13 @@ body {
 .tickets {
   /* background-color: purple; */
   font-size: 45px;
-  font-family: sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               helvetica, 'helvetica neue',
+               ubuntu,
+               roboto, noto,
+               'segoe ui', arial,
+               sans-serif;
   font-weight: bold;
 }
 
