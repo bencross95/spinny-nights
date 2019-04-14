@@ -31,6 +31,49 @@ body {
 }
 
 
+.nav {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  max-width: 1400px;
+  padding-top: 70px;
+  font-size: 20px;
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  padding-right: 16px;
+  /* transform: rotate(180deg); */
+}
+
+li a:hover {
+  text-decoration:underline;
+  /* transform: skewY(20deg); */
+}
+
+.underline {
+  /* text-decoration:underline; */
+  /* border-bottom: 1px solid currentColor; */
+}
+
+.text-section {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  max-width: 500px;
+}
+
+
 .footer-text {
   margin-right: 10vw;
   margin-left: 10vw;
@@ -53,8 +96,14 @@ body {
 }
 
 
+.coming-soon {
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+
 
 .logo {
+  opacity: 1;
   text-align: right;
   max-width: 1400px;
   /* background-color: grey; */
@@ -63,7 +112,7 @@ body {
   top: 40px;
   margin-top: auto;
   margin-bottom: auto;
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 
   -webkit-animation:spin2 90s linear infinite;
   -moz-animation:spin2 90s linear infinite;
@@ -130,7 +179,7 @@ article {
 
 .upcoming {
   /* background-color: #FCFCFC; */
-  margin-top: 300px;
+  margin-top: 190px;
   position: relative;
 }
 
@@ -175,7 +224,7 @@ article {
 }
 
 .date {
-  font-style: italic;
+  font-family: 'Steinbeck Italic';
 }
 
 a {
@@ -187,6 +236,11 @@ a {
   color: white;
 } */
 
+.text-section-header {
+
+  margin-bottom: auto;
+  margin-top: 100px;
+}
 
 
 h2 {
@@ -199,6 +253,24 @@ h3 {
   font-weight: normal;
 }
 
+h4 {
+  font-family: 'Steinbeck Italic';
+  font-size: 42px;
+  font-weight: normal;
+
+}
+
+p {
+  font-size: 20px;
+  line-height: 126%;
+  font-weight: normal;
+}
+
+
+
+.text-bottom {
+  padding-bottom: 150px;
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -272,6 +344,7 @@ h3 {
   }
 
   .logo {
+    opacity: 0;
     text-align: right;
     max-width: 1400px;
     /* background-color: grey; */
@@ -302,10 +375,30 @@ h3 {
     margin-left: 5vw;
   }
 
+  .nav {
+    margin-left: 5vw;
+    padding-top: 60px;
+  }
+
+  li a {
+    padding-right: 10px;
+  }
+
+
   .events-content {
     margin-right: 5vw;
     margin-left: 5vw;
     max-width: 1400px;
+  }
+
+  .text-section {
+    margin-right: 5vw;
+    margin-left: 5vw;
+    /* max-width: 500px; */
+  }
+
+  .text-bottom {
+    padding-bottom: 90px;
   }
 
 }
