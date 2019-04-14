@@ -345,25 +345,24 @@ p {
   }
 
   .logo {
-    display: none;
-    opacity: 0;
-    text-align: right;
+    display: inline-block;
+    opacity: 1;
+    text-align: left;
     max-width: 1400px;
     /* background-color: grey; */
     position: fixed;
-    right: 5vw;
     left: 5vw;
     top: 40px;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 30px;
-    transform: rotate(-3deg);
+    transform: rotate(0deg);
 
-    -webkit-animation:spin2 10000s linear infinite;
-    -moz-animation:spin2 10000s linear infinite;
-    animation:spin2 10000s linear infinite;
+    -webkit-animation:0s linear infinite;
+    -moz-animation:0s linear infinite;
+    animation:0s linear infinite;
 
   }
+
 
   .upcoming {
     /* background-color: #FCFCFC; */
@@ -379,7 +378,7 @@ p {
 
   .nav {
     margin-left: 5vw;
-    padding-top: 60px;
+    padding-top: 120px;
   }
 
   li a {
