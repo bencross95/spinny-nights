@@ -103,6 +103,7 @@ li a:hover {
 
 
 .logo {
+  display: inline-block;
   opacity: 1;
   text-align: right;
   max-width: 1400px;
@@ -344,6 +345,7 @@ p {
   }
 
   .logo {
+    display: none;
     opacity: 0;
     text-align: right;
     max-width: 1400px;
