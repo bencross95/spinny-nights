@@ -306,9 +306,11 @@ p {
   .tickets {
     font-size: 30px;
   }
+
   h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
+
   .the-em {
     width: 103px;
     position: inline-block;
