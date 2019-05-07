@@ -75,13 +75,8 @@ li a:hover {
   max-width: 1400px;
   padding-top: 100px;
   margin-bottom: 20px;
-  font-family: -apple-system, BlinkMacSystemFont,
-               'avenir next', avenir,
-               helvetica, 'helvetica neue',
-               ubuntu,
-               roboto, noto,
-               'segoe ui', arial,
-               sans-serif;
+  font-size: 10px;
+  font-family: Steinbeck Italic;
 }
 
 .events-content {
@@ -383,6 +378,8 @@ p {
   .footer-text {
     margin-right: 5vw;
     margin-left: 5vw;
+    font-size: 8px;
+    font-family: Steinbeck Italic;
   }
 
   .nav {
