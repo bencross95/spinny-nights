@@ -64,14 +64,9 @@ li a:hover {
 
 .underline {
   /* text-decoration:underline; */
-  /* border-bottom: 1px solid currentColor; */
+  /* border-bottom: 2px solid currentColor; */
 }
 
-.text-section {
-  margin-right: 10vw;
-  margin-left: 10vw;
-  max-width: 500px;
-}
 
 
 .footer-text {
@@ -90,6 +85,12 @@ li a:hover {
 }
 
 .events-content {
+  margin-right: 10vw;
+  margin-left: 10vw;
+  max-width: 1400px;
+}
+
+.text-section {
   margin-right: 10vw;
   margin-left: 10vw;
   max-width: 1400px;
@@ -126,6 +127,12 @@ li a:hover {
 @-webkit-keyframes spin2 { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin2 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
+
+.large-body {
+  font-size: 42px;
+  line-height: 126%;
+  font-family: Steinbeck Regular;
+}
 
 .date {
   /* background-color: yellow; */
@@ -397,7 +404,13 @@ p {
   .text-section {
     margin-right: 5vw;
     margin-left: 5vw;
-    /* max-width: 500px; */
+    max-width: 1400px;
+  }
+
+  .large-body {
+    font-size: 30px;
+    line-height: 126%;
+    font-family: Steinbeck Regular;
   }
 
   .text-bottom {
