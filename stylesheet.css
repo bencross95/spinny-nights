@@ -45,14 +45,32 @@ li {
 }
 
 li a {
-  padding-right: 30px;
+  padding-right: 50px;
+  padding-left: 40px;
+  margin-left: -40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   /* transform: rotate(180deg); */
+
 }
 
+
 li a:hover {
-  text-decoration:underline;
-  /* transform: skewY(20deg); */
+  /* text-decoration:underline; */
+  background-image: url('images/hoverCircle.svg');
+  height: 100px;
+  /* width: 120px; */
+  background-repeat:no-repeat;
+  background-repeat:no-repeat;
+  background-position: center center;
+  /* background-clip: border-box; */
 }
+
+.nav-aboutus {
+
+}
+
+
 
 .underline {
   /* text-decoration:underline; */

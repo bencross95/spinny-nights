@@ -36,13 +36,25 @@ function imageHover(index) {
   document.body.style.backgroundImage = `url(${imagesArray[index]})`;
   document.body.style.backgroundColor = "#000";
   document.getElementById(`date-${index}`).style.color = "#FFFFFF";
+
   document.getElementById(`event-name-${index}`).style.color = "#FFFFFF";
-  document.getElementById(`manicule-${index}`).style.color = "#FFFFFF";
+
+  // document.getElementById(`event-name-${index}`).style.backgroundColor = "#000";
+
+
+  document.getElementById(`event-name-${index}`).style.color = "#FFFFFF";
+
+  document.getElementById(`manicule-${index}`).style.backgroundColor = "#FFFFFF";
+
   document.getElementById(`article-ticket-${index}`).style.color = "#FFFFFF";
   document.getElementById('logo').style.color = "#FFFFFF";
   // console.log(imagesArray[index]);
 }
 }
+
+
+// background-color: #fff2ac;
+
 
 function imageReset(index) {
   if (window.innerWidth > 900) {
@@ -50,6 +62,9 @@ function imageReset(index) {
   document.body.style.backgroundColor = "";
   document.getElementById(`date-${index}`).style.color = "";
   document.getElementById(`event-name-${index}`).style.color = "";
+  document.getElementById(`event-name-${index}`).style.backgroundColor = "";
+
+
   document.getElementById(`manicule-${index}`).style.color = "";
   document.getElementById(`article-ticket-${index}`).style.color = "";
   document.getElementById('logo').style.color = "";
