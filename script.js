@@ -44,7 +44,7 @@ function imageHover(index) {
 
   document.getElementById(`event-name-${index}`).style.color = "#FFFFFF";
 
-  document.getElementById(`manicule-${index}`).style.backgroundColor = "#FFFFFF";
+  document.getElementById(`manicule-${index}`).style.color = "#FFFFFF";
 
   document.getElementById(`article-ticket-${index}`).style.color = "#FFFFFF";
   document.getElementById('logo').style.color = "#FFFFFF";

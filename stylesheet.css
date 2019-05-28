@@ -151,6 +151,8 @@ li a:hover {
   font-family: Steinbeck Regular;
 }
 
+
+
 .date {
   /* background-color: yellow; */
   font-size: 62px;
@@ -289,10 +291,79 @@ p {
 }
 
 
-
 .text-bottom {
   padding-bottom: 150px;
 }
+
+
+.releases-body {
+  height:450vh;
+}
+
+.side-scroll {
+  height: 100vh;
+  width: 450vh;
+  left: 0;
+  position: fixed;
+}
+
+.sidegrid {
+  padding-top:60px;
+  display: grid;
+  grid-template-columns: 480px 600px 900px 900px 500px;
+}
+
+.small-body {
+  font-size: 32px;
+  line-height: 136%;
+  font-family: Steinbeck Regular;
+}
+
+.releases-text {
+  width: 800px;
+  padding-top: 80px;
+}
+ .releases-title {
+   width: 400px;
+   padding-top: 170px;
+ }
+
+
+ .nav-alt {
+   padding-top: 200px;
+   margin-right: 10vw;
+   margin-left: 10vw;
+   /* max-width: 1400px; */
+   /* padding-top: 80px; */
+   font-size: 22px;
+ }
+
+
+ .ul-alt {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .li-alt {
+   display: inline;
+   /* transform: rotate(180deg); */
+ }
+
+ .li-alt a {
+   padding-right: 50px;
+   padding-left: 40px;
+   margin-left: -40px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+
+ }
+
+
+ iframe {
+   width: 400px;
+   height: 480px;
+ }
 
 
 @media only screen and (max-width: 1200px) {
@@ -315,6 +386,64 @@ p {
 
 
 @media only screen and (max-width: 600px) {
+
+  iframe {
+    width: 320px;
+    height: 400px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .releases-body {
+    height:auto;
+  }
+
+  .side-scroll {
+    height:auto;
+    width: 450vh;
+    left: auto;
+    position: static;
+  }
+
+
+  .sidegrid {
+    padding-top:60px;
+    display: inline;
+    /* grid-template-columns: 260px 600px 900px 900px 500px; */
+  }
+
+
+  .small-body {
+    font-size: 18px;
+    line-height: 136%;
+    font-family: Steinbeck Regular;
+  }
+
+  .releases-text {
+    width: auto;
+    padding-top: 0px;
+    margin-right: 5vw;
+    margin-left: 5vw;
+  }
+
+   .releases-title {
+     width: auto;
+     padding-top: 20px;
+     margin-right: 5vw;
+     margin-left: 5vw;
+   }
+
+
+   .nav-alt {
+     /* padding-top: 100px;
+     margin-right: 5vw;
+     margin-left: 5vw;
+     font-size: 22px; */
+     display: none;
+   }
+
+
+
   .date {
     font-size: 40px;
   }
