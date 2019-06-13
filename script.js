@@ -31,6 +31,7 @@ imagesArray = [
   'images/30.jpg',
 ]
 
+
 function imageHover(index) {
   if (window.innerWidth > 900) {
   document.body.style.backgroundImage = `url(${imagesArray[index]})`;

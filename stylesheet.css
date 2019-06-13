@@ -90,8 +90,8 @@ li a:hover {
 }
 
 .events-content {
-  margin-right: 10vw;
-  margin-left: 10vw;
+  margin-right: 4vw;
+  margin-left: 14vw;
   max-width: 1400px;
 }
 
@@ -105,44 +105,61 @@ li a:hover {
 .coming-soon {
   margin-right: 10vw;
   margin-left: 10vw;
+
 }
 
 .nav {
-  margin-right: 10vw;
-  margin-left: 10vw;
-  max-width: 1400px;
-  padding-top: 80px;
-  font-size: 22px;
-
+  /* margin-right: 8vw;
+  margin-left: 14vw; */
+  /* max-width: 1400px; */
+  padding-top: 87px;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
 }
 
+.nav-nothome {
+  padding-top: 20px;
+}
+
+.spinny-logo {
+  padding-top: 60px;
+  max-width: 1090px;
+  margin-bottom: 84px;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+}
 
 .logo {
-  font-size: 32px;
-  line-height: 126%;
-  font-family: Steinbeck Regular;
-  display: inline-block;
+  margin-left: -38px;
   opacity: 1;
-  text-align: right;
+  width: 1090px;
   max-width: 1400px;
-  /* background-color: grey; */
-  position: fixed;
-  right: 10vw;
-  /* top: 40px; */
-  padding-top: 77px;
-  margin-bottom: auto;
-  transform: rotate(0deg);
-
-  /* -webkit-animation:spin2 90s linear infinite;
-  -moz-animation:spin2 90s linear infinite;
-  animation:spin2 90s linear infinite; */
-
 }
 
 
-/* @-moz-keyframes spin2 { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin2 { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin2 { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } } */
+
+
+
+
+.spinny-logo-small {
+  padding-top: 20px;
+  max-width: 190px;
+  margin-bottom: 0px;
+  text-overflow: clip;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+}
+
+
+.logo-small {
+  opacity: 1;
+  width: 190px;
+
+}
+
 
 
 .large-body {
@@ -206,7 +223,7 @@ article {
 
 .upcoming {
   /* background-color: #FCFCFC; */
-  margin-top: 190px;
+  margin-top: 0px;
   position: relative;
 }
 
@@ -246,7 +263,7 @@ article {
 
 .previous {
   /* change back to 120px when there are upcoming events */
-  margin-top: 150px;
+  margin-top: 120px;
   position: relative;
 }
 
@@ -381,9 +398,24 @@ p {
   margin-right: 30px;
   }
 
+  .events-content {
+    margin-right: 8vw;
+    margin-left: 8vw;
+    max-width: 1400px;
+  }
+
 
 }
 
+@media only screen and (max-width: 1100px) {
+  .logo {
+    width: 100%;
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+
+}
 
 @media only screen and (max-width: 600px) {
 
@@ -497,17 +529,9 @@ p {
   }
 
   .logo {
-    display: inline-block;
-    opacity: 1;
-    text-align: left;
-    max-width: 1400px;
-    position: fixed;
-    left: 5vw;
-    padding-top: 0px;
-    margin-top: 50px;
-    margin-bottom: auto;
-    transform: rotate(0deg);
-
+    width: 100%;
+    margin-left: 0px;
+    margin-right: -10px;
   }
 
 
@@ -525,12 +549,12 @@ p {
   }
 
   .nav {
-    margin-left: 5vw;
-    padding-top: 120px;
+    /* margin-left: 5vw; */
+    padding-top: 50px;
   }
 
   li a {
-    padding-right: 10px;
+    padding-right: 15px;
   }
 
 
@@ -554,6 +578,11 @@ p {
 
   .text-bottom {
     padding-bottom: 90px;
+  }
+
+  .spinny-logo {
+    margin-bottom: -50px;
+
   }
 
 }
