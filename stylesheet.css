@@ -346,41 +346,54 @@ p {
  }
 
 
- .nav-alt {
-   padding-top: 200px;
-   margin-right: 10vw;
-   margin-left: 10vw;
-   /* max-width: 1400px; */
-   /* padding-top: 80px; */
-   font-size: 22px;
- }
+.nav-alt {
+ padding-top: 200px;
+ margin-right: 10vw;
+ margin-left: 10vw;
+ /* max-width: 1400px; */
+ /* padding-top: 80px; */
+ font-size: 22px;
+}
 
 
- .ul-alt {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
- }
+.ul-alt {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
 
- .li-alt {
-   display: inline;
-   /* transform: rotate(180deg); */
- }
+.li-alt {
+ display: inline;
+ /* transform: rotate(180deg); */
+}
 
- .li-alt a {
-   padding-right: 50px;
-   padding-left: 40px;
-   margin-left: -40px;
-   padding-top: 20px;
-   padding-bottom: 20px;
+.li-alt a {
+ padding-right: 50px;
+ padding-left: 40px;
+ margin-left: -40px;
+ padding-top: 20px;
+ padding-bottom: 20px;
 
- }
+}
 
 
- iframe {
-   width: 400px;
-   height: 480px;
- }
+iframe {
+ width: 400px;
+ height: 480px;
+}
+
+
+
+.posterImg {
+  width: 300px;
+}
+
+
+
+
+
+
+
 
 
 @media only screen and (max-width: 1200px) {
