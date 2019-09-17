@@ -357,11 +357,9 @@ p {
   font-weight: normal;
 }
 
-
 .text-bottom {
   padding-bottom: 150px;
 }
-
 
 .releases-body {
   height:200vh;
@@ -378,6 +376,9 @@ p {
   padding-top:60px;
   display: grid;
   grid-template-columns: 480px 600px 900px 900px 500px;
+  -ms-transform: rotate(-1deg); /* IE 9 */
+  -webkit-transform: rotate(-1deg); /* Safari prior 9.0 */
+  transform: rotate(-1deg); /* Standard syntax */
 }
 
 .small-body {
@@ -581,13 +582,14 @@ iframe {
   }
 
   .upcoming-body {
-    /* background-color: #FCFCFC; */
-    margin-top: 5vh;
+    /* background-color: lime; */
+    /* margin-top: 5vh; */
+    margin-top: 0px;
   }
 
   .previous-body {
     /* background-color: #FCFCFC; */
-    margin-top: 5vh;
+    margin-top: 0px;
   }
 
   .logo {
@@ -668,6 +670,21 @@ iframe {
     text-align-last: justify; */
   }
 
+  .upcoming-body {
+    /* background-color: lime; */
+    /* margin-top: 5vh; */
+    margin-top: -20px;
+  }
 
+  .previous-body {
+    /* background-color: #FCFCFC; */
+    margin-top: -20px;
+  }
+
+  .previous {
+    /* change back to 120px when there are upcoming events */
+    margin-top: 80px;
+    position: relative;
+  }
 
 }
