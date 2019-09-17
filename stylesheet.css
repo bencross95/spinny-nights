@@ -109,13 +109,14 @@ li a:hover {
 }
 
 .nav {
-  /* margin-right: 8vw;
-  margin-left: 14vw; */
-  /* max-width: 1400px; */
   padding-top: 87px;
-  font-size: 25px;
+  font-size: 18px;
+  text-align: right;
   margin: 0 auto;
-  text-align: center;
+  font-family: 'Space Mono', monospace;
+  margin-right: 8vw;
+  margin-left: 8vw;
+  max-width: 1600px;
 }
 
 .nav-nothome {
@@ -123,23 +124,22 @@ li a:hover {
 }
 
 .spinny-logo {
-  padding-top: 60px;
-  max-width: 1090px;
-  margin-bottom: 84px;
+  padding-top: 0px;
+  /* max-width: 1090px; */
+  margin-bottom: 0px;
   text-overflow: clip;
   overflow: hidden;
   white-space: nowrap;
 }
 
 .logo {
-  margin-left: -38px;
+  /* margin-left: 540px; */
+  margin-left: 35vw;
+  margin-bottom: -50px;
   opacity: 1;
-  width: 1090px;
-  max-width: 1400px;
+  width: 538px;
+  /* max-width: 538px; */
 }
-
-
-
 
 
 
