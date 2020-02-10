@@ -345,9 +345,10 @@ h3 {
 }
 
 h4 {
-  font-family: 'Steinbeck Italic';
-  font-size: 42px;
+  font-family: 'Space Mono';
+  font-size: 25px;
   font-weight: normal;
+  line-height: 0.5;
 
 }
 
@@ -357,12 +358,21 @@ p {
   font-weight: normal;
 }
 
+.releases-track-name {
+  text-decoration: underline;
+}
+
+.releases-artist-name {
+  font-style: italic;
+  padding-bottom: 5px;
+}
+
 .text-bottom {
   padding-bottom: 150px;
 }
 
 .releases-body {
-  height:200vh;
+
 }
 
 .side-scroll {
@@ -382,19 +392,22 @@ p {
 }
 
 .small-body {
+  margin: 0;
   font-size: 20px;
   line-height: 136%;
   font-family: 'Space Mono', monospace;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .releases-text {
-  width: 800px;
+  max-width: 700px;
   padding-top: 80px;
 }
- .releases-title {
-   width: 400px;
-   padding-top: 170px;
- }
+
+.releases-iframe {
+  padding-top: 80px;
+}
 
 
 .nav-alt {
@@ -442,6 +455,14 @@ iframe {
 }
 
 
+.text-section {
+  margin-left: 20vw;
+  margin-right: 5vw;
+  -ms-transform: rotate(-1deg); /* IE 9 */
+  -webkit-transform: rotate(-1deg); /* Safari prior 9.0 */
+  transform: rotate(-1deg); /* Standard syntax */
+  margin-bottom: 200px;
+}
 
 
 
@@ -450,6 +471,13 @@ iframe {
 
 
 @media only screen and (max-width: 1200px) {
+
+
+  .text-section {
+    margin-left: 5vw;
+  }
+
+
   .upcoming-icon {
   position: relative;
   margin-left: -0px;
@@ -474,8 +502,13 @@ iframe {
     margin-right: 8vw;
     margin-left: 8vw;
 
-
 }
+
+
+
+
+
+
 
 @media only screen and (max-width: 1100px) {
   .logo {
@@ -489,6 +522,21 @@ iframe {
 
 @media only screen and (max-width: 600px) {
 
+  .releases-iframe {
+    padding-top: 40px;
+  }
+
+
+  .text-section {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    -ms-transform: rotate(-0deg); /* IE 9 */
+    -webkit-transform: rotate(-0deg); /* Safari prior 9.0 */
+    transform: rotate(-0deg); /* Standard syntax */
+    margin-bottom: 100px;
+  }
+
+
   iframe {
     width: 320px;
     height: 400px;
@@ -500,19 +548,7 @@ iframe {
     height:auto;
   }
 
-  .side-scroll {
-    height:auto;
-    width: 450vh;
-    left: auto;
-    position: static;
-  }
 
-
-  .sidegrid {
-    padding-top:60px;
-    display: inline;
-    /* grid-template-columns: 260px 600px 900px 900px 500px; */
-  }
 
 
   .small-body {
@@ -523,17 +559,11 @@ iframe {
 
   .releases-text {
     width: auto;
-    padding-top: 0px;
+    padding-top: 100px;
     margin-right: 5vw;
     margin-left: 5vw;
   }
 
-   .releases-title {
-     width: auto;
-     padding-top: 20px;
-     margin-right: 5vw;
-     margin-left: 5vw;
-   }
 
 
 
@@ -660,15 +690,7 @@ iframe {
     margin-top: 50px;
   }
 
-  .large-body-standard {
-    font-size: 30px;
-    line-height: 126%;
-    font-family: Steinbeck italic;
-    text-align: left;
-    /* text-align: justify;
-    -moz-text-align-last: justify;
-    text-align-last: justify; */
-  }
+
 
   .upcoming-body {
     /* background-color: lime; */
