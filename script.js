@@ -25,7 +25,7 @@ imagesArray = [
   'images/nightImages/24.jpg',
   'images/nightImages/25.jpg',
   'images/nightImages/26.jpg',
-  'images/nightImages/27.jpg',
+  // 'images/nightImages/27.jpg',
   // 'images/nightImages/28.jpg',
   // 'images/nightImages/29.jpg',
   // 'images/nightImages/30.jpg',
