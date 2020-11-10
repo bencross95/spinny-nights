@@ -23,89 +23,6 @@
 
   <body>
 
-                <style type="text/css">
-                  .antiracism-overlay{
-                    position:fixed;
-                    width:100vw;
-                    height:100vh;
-                    top:0;
-                    left:0;
-                    padding:0;
-                    z-index:999;
-                    z-index:999999999;
-                  }
-                  .antiracism-overlay__close-button{
-                    max-width:75vw;
-                    width: calc(100% - 40px);
-                    background: url('https://anti-racism-resources.netlify.app/assets/continue-02.svg');
-                    opacity: 0.8;
-                    background-size: contain;
-                    background-position: center right;
-                    background-repeat: no-repeat;
-                    height:24px;
-                    position:fixed;
-                    top:18px;
-                    right:12px;
-                    background-color:transparent;
-                    border:none;
-                    -webkit-appearance:none;
-                  }
-                  .antiracism-iframe{
-                    height:100%;
-                    width:100%;
-                  }
-                  .antiracism-overlay__close-button:focus{
-                    outline:none;
-                  }
-                  .antiracism-overlay__close-button{
-                    cursor:pointer;
-                    right:12px;
-                  }
-                  .antiracism-overlay{
-                    overflow-y:scroll;
-                    -webkit-overflow-scrolling:touch;
-                  }
-                </style>
-
-                  <div class="antiracism-overlay">
-                  <iframe class="antiracism-iframe full-height" src="https://anti-racism-resources.netlify.app/" frameborder="0" style="width: 100%; height: 100%;"></iframe>
-                    <button class="antiracism-overlay__close-button">
-                    </button>
-                  </div>
-
-                <script type="text/javascript">
-
-                    const deactivateAntiracismOverlay = () => {
-                      const overlay = document.querySelector('.antiracism-overlay');
-                      if (overlay) {
-                        overlay.parentNode.removeChild(overlay);
-                      }
-                    }
-                    const setupAntiracismOverlay = () => {
-                      const overlayCloseButton = document.querySelector('.antiracism-overlay__close-button');
-                      if (overlayCloseButton) {
-                        overlayCloseButton.addEventListener('click',deactivateAntiracismOverlay);
-                      }
-                    }
-                    const setAntiracismFullHeight = () => {
-                      const fullHeightElements = document.querySelectorAll('.full-height');
-                      if (fullHeightElements[0]) {
-                        for (let fullHeightElement of fullHeightElements) {
-                          fullHeightElement.style.height = window.innerHeight + 'px';
-                        }
-                      }
-                    }
-                    const antiracismAutorun = () => {
-                      setupAntiracismOverlay();
-                      setAntiracismFullHeight();
-                      window.addEventListener('resize',setAntiracismFullHeight);
-                    }
-                    if (document.addEventListener) document.addEventListener("DOMContentLoaded", antiracismAutorun, false);
-                    else if (document.attachEvent) document.attachEvent("onreadystatechange", antiracismAutorun);
-                    else window.onload = antiracismAutorun;
-
-                </script>
-
     <nav class="nav">
       <ul>
         <li ><a href="aboutus.html" class="nav-aboutus">ABOUT</a></li>
@@ -124,7 +41,7 @@
 
 <!--  Upcoming events -------------------->
 
-<!--
+
     <div class="upcoming">
         <div class="upcoming-icon" style="float:left"><img src="images/glyph-2.svg" alt="">
         </div>
@@ -132,24 +49,24 @@
       </div>
 
   <div class="upcoming-body">
-  <p> -->
+  <p>
 
 
 
       <!-- <span class="em"><img src="images/the-em.png" class="the-em"></span> -->
 
-      <!-- <article onmouseover="imageHover(26)" onmouseout="imageReset(26)" id="" >
-        <a target="_blank" href="https://www.facebook.com/events/757187698425518/">
-        <span class="date" id="date-26">August 19th </span>
-        <span class="event-name" id="event-name-26">Robbie & Mona + Bingo Fury </span>
-        <span class="manicule" id="manicule-26">☛ </span>
+      <article onmouseover="imageHover(27)" onmouseout="imageReset(27)" id="" >
+        <a target="_blank" href="https://www.facebook.com/events/400835527602307/">
+        <span class="date" id="date-27">November 20th </span>
+        <span class="event-name" id="event-name-27">SN#20: Robbie & Mona / CIX / Bingo Fury </span>
+        <span class="manicule" id="manicule-27">☛ </span>
         </a>
-        <a id="article-ticket-26" target="_blank" href="https://www.headfirstbristol.co.uk/#date=2020-08-19&event_id=62628"><span class="tickets">TICKETS</span></a>
+        <a id="article-ticket-27" target="_blank" href="https://www.facebook.com/events/400835527602307/"><span class="tickets">TICKETS</span></a>
       </article>
 
 
 </p>
-  </div> -->
+  </div>
 
 
 
