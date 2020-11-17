@@ -101,17 +101,17 @@ li a:hover {
   margin-left: 10vw;
   max-width: 360px;
   margin: 0 auto;
-  -ms-transform: rotate(-1deg); /* IE 9 */
-  -webkit-transform: rotate(-1deg); /* Safari prior 9.0 */
-  transform: rotate(-1deg); /* Standard syntax */
+
 }
 
 .site-credit {
-  font-family: 'Space Mono', monospace;
-  text-align: right;
+  font-family: 'Courier Next',
+               courier,
+               monospace;
+  text-align: center;
   margin-right: 20px;
   margin-bottom: 20px;
-  margin-top: 30px;
+  margin-top: 80px;
   font-size: 14px;
 }
 
@@ -124,10 +124,12 @@ li a:hover {
 
 .nav {
   padding-top: 87px;
-  font-size: 18px;
+  font-size: 14px;
   text-align: right;
   margin: 0 auto;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier Next',
+               courier,
+               monospace;
   margin-right: 8vw;
   margin-left: 8vw;
   max-width: 1600px;
@@ -177,9 +179,11 @@ li a:hover {
 
 
 .large-body {
-  font-size: 25px;
+  font-size: 14px;
   line-height: 126%;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier Next',
+               courier,
+               monospace;
   text-align: justify;
   -moz-text-align-last: justify;
   text-align-last: justify;
@@ -202,19 +206,12 @@ li a:hover {
   text-align-last: justify;
 }
 
-.about-line {
-  margin-right: 10vw;
-  margin-left: 10vw;
-  max-width: 425px;
-  margin: 0 auto;
-  margin-top: -37px;
-}
 
 
 .about-logo {
   margin-right: 10vw;
   margin-left: 10vw;
-  max-width: 170px;
+  max-width: 30px;
   margin: 0 auto;
   margin-top: 90px;
   margin-bottom: 30px;
@@ -345,8 +342,10 @@ h3 {
 }
 
 h4 {
-  font-family: 'Space Mono';
-  font-size: 25px;
+  font-family: 'Courier Next',
+               courier,
+               monospace;
+  font-size: 14px;
   font-weight: normal;
   line-height: 1.2;
 
@@ -386,16 +385,16 @@ p {
   padding-top:60px;
   display: grid;
   grid-template-columns: 480px 600px 900px 900px 500px;
-  -ms-transform: rotate(-1deg); /* IE 9 */
-  -webkit-transform: rotate(-1deg); /* Safari prior 9.0 */
-  transform: rotate(-1deg); /* Standard syntax */
+
 }
 
 .small-body {
   margin: 0;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 136%;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Courier Next',
+               courier,
+               monospace;
   padding-bottom: 10px;
   padding-top: 10px;
 }
@@ -416,8 +415,10 @@ p {
  margin-left: 10vw;
  /* max-width: 1400px; */
  /* padding-top: 80px; */
- font-size: 22px;
- font-family: 'Space Mono', monospace;
+ font-size: 14px;
+ font-family: 'Courier Next',
+              courier,
+              monospace;
 
 }
 
@@ -458,9 +459,6 @@ iframe {
 .text-section {
   margin-left: 20vw;
   margin-right: 5vw;
-  -ms-transform: rotate(-1deg); /* IE 9 */
-  -webkit-transform: rotate(-1deg); /* Safari prior 9.0 */
-  transform: rotate(-1deg); /* Standard syntax */
   margin-bottom: 100px;
 }
 
@@ -530,9 +528,7 @@ iframe {
   .text-section {
     margin-left: 5vw;
     margin-right: 5vw;
-    -ms-transform: rotate(-0deg); /* IE 9 */
-    -webkit-transform: rotate(-0deg); /* Safari prior 9.0 */
-    transform: rotate(-0deg); /* Standard syntax */
+
     margin-bottom: 30px;
   }
 
@@ -552,7 +548,7 @@ iframe {
 
 
   .small-body {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 136%;
     /* font-family: Steinbeck Regular; */
   }
@@ -663,13 +659,11 @@ iframe {
     margin-right: 5vw;
     margin-left: 5vw;
     max-width: 1400px;
-    -ms-transform: rotate(0deg); /* IE 9 */
-    -webkit-transform: rotate(0deg); /* Safari prior 9.0 */
-    transform: rotate(0deg); /* Standard syntax */
+
   }
 
   .large-body {
-    font-size: 20px;
+    font-size: 14px;
     line-height: 126%;
     /* font-family: Steinbeck Regular; */
   }
@@ -685,7 +679,7 @@ iframe {
 
   .site-credit {
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
   }
 
 
