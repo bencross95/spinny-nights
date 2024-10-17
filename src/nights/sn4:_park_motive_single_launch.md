@@ -1,5 +1,5 @@
 ---
-title: SN#4 Park Motive Single Launch
+title: SN4 Park Motive Single Launch
 date: 2024-04-23
 tags: ['park_motive']
 ---
