@@ -1,0 +1,4 @@
+{
+    "layout": "layouts/nights.njk",
+    "tags": "nights"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "spinny-nights",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0"
+  }
+}
