@@ -1,10 +1,10 @@
 ---
-title: Lynks - Str8 Acting
+title: Lynks
+description: Str8 Acting
 date: 2020-07-01T19:00:31.748Z
-description: A scolding critique of a ‘masc4masc’, straight-worshipping trend
-  proliferating in queer culture.
-tag: "Lynks"
+tag: "lynks"
 image: /assets/images/990-lynks-sq-1.jpeg
+link: https://open.spotify.com/track/7g1R3Hd3BmYtTE1j4Jlsyi?si=2d17072188544759
 ---
  A scolding critique of a ‘masc4masc’, straight-worshipping trend proliferating in queer culture. [Listen here](https://open.spotify.com/track/7g1R3Hd3BmYtTE1j4Jlsyi?si=2d17072188544759).
 

@@ -1,7 +1,9 @@
 ---
-title: "SPICE"
-artist: "Grove"
-tags: ["grove"]
+title: Grove
+description: SPICE
+date: 2021-11-23
+tags: grove
+image: /assets/images/spice.jpg
 ---
 
 ## Release Information

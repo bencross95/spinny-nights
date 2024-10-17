@@ -1,7 +1,9 @@
 ---
 title: "St8 Acting"
 artist: "Lynks"
+date: 2020-07-01
 tags: ["lynks"]
+image: /assets/images/990-lynks-sq-1.jpeg
 ---
 
 ## Release Information

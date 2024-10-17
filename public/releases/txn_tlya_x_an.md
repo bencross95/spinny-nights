@@ -1,7 +1,9 @@
 ---
-title: "TXN"
-artist: "Tlya X An"
-tags: ["tlya_x_an"]
+title: Tlya X An
+description: TXN
+date: 2023-04-27
+tags: tlya_x_an
+image: /assets/images/txn.jpg
 ---
 
 ## Release Information

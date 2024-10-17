@@ -1,7 +1,9 @@
 ---
-title: "DISASTER POP"
-artist: "Nukuluk"
+title: Nukuluk
+description: DISASTER POP
+date: 2021-11-17
 tags: ["nukuluk"]
+image: /assets/images/disasterpop.jpg
 ---
 
 ## Release Information

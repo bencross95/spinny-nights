@@ -4,46 +4,44 @@ description: Spinny Nights
 layout: base.njk
 ---
 
-<h1>Spinny Nights</h1>
 
-
-<h1>Releases</h1>
-<div class="flex flex-wrap pa3 pa5-ns">
+<h2 class="f7 ml1 mr1 mb1">RELEASES</h2>
+<div class="flex flex-wrap">
   {% for releases in collections.releases | reverse %}
-    <div class="db mw5 black bb ma1 b--light-gray">
-      <a class=" link dim " href="{{ releases.url }}">
-        <img class="" alt="" src="{{ releases.data.image }}"></a>
-        <dl class="mt2 f6 lh-copy">
-          <dd class="ml0 fw9">{{ releases.data.title }}</dd>
-          <dd class="ml0 gray">{{ releases.data.date | postDate }}</dd>
-          <a href="">
-            <dd class="ml0 gray">Play</dd>
+    <div class="db mw4 black mr1 ml1">
+        <img class="" alt="" src="{{ releases.data.image }}">
+        <dl class="mt2 f7">
+          <dd class="ml0 f7">{{ releases.data.title }}</dd>
+          <dd class="ml0 gray">{{ releases.data.description }} ({{ releases.data.date | dateYear }})</dd>
+          <a href="" class="flex items-center link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <dd class="ml0 gray link dim dib">Play</dd>
           </a>
         </dl>
       </div>
     {% endfor %}
   </div>
-  <h1>Nights</h1>
 
-
-  <div class="pa4">
-  <div class="overflow-auto">
-    <table class="f6 w-100 mw8 center" cellspacing="0">
+  <div class="">
+  <div class="overflow-auto mr1 ml1">
+    <table class="f7 w-100" cellspacing="0">
       <thead>
         <tr>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Artists</th>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Date</th>
-          <th class="fw6 bb b--black-20 tl pb3 pr3 bg-white">Link</th>
+          <th class="f7 bb b--black-20 tl pb1 pr3 bg-white">Nights</th>
+          <th class="f7 bb b--black-20 tl pb1 pr3 bg-white">Date</th>
+          <th class="f7 bb b--black-20 tl pb1 pr3 bg-white">Link</th>
         </tr>
       </thead>
   
       <tbody class="lh-copy">
             {% for nights in collections.nights | reverse %}
             
-              <tr class="striped--near-white">
-                <td class="pv3 pr3 bb b--black-20">{{ nights.data.title }}</td>
-                <td class="pv3 pr3 bb b--black-20">{{ nights.data.date | postDate }}</td>
-                <td class="pv3 pr3 bb b--black-20"><a href="{{ nights.data.link }}">Link</a></td>
+              <tr class="striped--near-white dim">
+                <td class="pv1 pr3 b--black-20">{{ nights.data.title }}</td>
+                <td class="pv1 pr3 b--black-20">{{ nights.data.date | postDate }}</td>
+                <td class="pv1 pr3 b--black-20"><a href="{{ nights.data.link }}">Link</a></td>
               </tr>
             {% endfor %}
       </tbody>

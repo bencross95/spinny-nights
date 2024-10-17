@@ -1,7 +1,10 @@
 ---
-title: "Waif"
-artist: "CIX"
+title: CIX
+description: Waif
+date: 2021-07-14
 tags: ["cix"]
+image: /assets/images/cix1.jpeg
+link: www.example.com
 ---
 
 ## Release Information

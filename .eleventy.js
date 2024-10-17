@@ -1,4 +1,5 @@
 const { DateTime } = require("luxon");
+const { dateYear } = require("luxon");
 
 module.exports = function (eleventyConfig) {
 
@@ -12,6 +13,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
       })
+
+      eleventyConfig.addFilter("dateYear", function(date) {
+        const d = new Date(date);
+        return d.getFullYear();
+      });
 
     return {
         dir: {

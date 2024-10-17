@@ -1,7 +1,9 @@
 ---
-title: "Queer + Black"
-artist: "Grove"
-tags: ["grove"]
+title: Grove
+description: Queer + Black
+date: 2021-02-23
+tags: grove
+image: /assets/images/queerblack.jpg
 ---
 
 ## Release Information

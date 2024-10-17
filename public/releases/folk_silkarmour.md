@@ -1,7 +1,9 @@
 ---
-title: "Folk"
-artist: "Silkarmour"
-tags: ["silkarmour"]
+title: Silkarmour
+description: Folk
+date: 2022-04-04
+tags: silkarmour
+image: /assets/images/folk.jpg
 ---
 
 ## Release Information

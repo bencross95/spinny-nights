@@ -1,7 +1,9 @@
 ---
-title: "EW"
-artist: "Robbie & Mona"
-tags: ["robbie_&_mona"]
+title: Robbie & Mona
+description: EW
+date: 2021-01-01
+tags: robbie_&_mona
+image: /assets/images/ew.jpg
 ---
 
 ## Release Information
