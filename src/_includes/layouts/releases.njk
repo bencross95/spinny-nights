@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+    <link rel="stylesheet" href="/style.css">
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+    <div class="content-flexbox flex flex-column justify-between">
+        <div>
+            <header>
+                {% include 'header.njk' %}
+            </header>
+            <div class="ml1 mr1 measure">
+                {{ content | safe }}
+            </div>
+        </div>
+        <footer>
+            {% include 'footer.njk' %}
+        </footer>
+    </div>
+</body>
+</html>

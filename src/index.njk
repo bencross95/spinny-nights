@@ -1,0 +1,64 @@
+---
+title: Spinny Nights
+description: Spinny Nights
+layout: base.njk
+---
+
+<p class="f7 mb0 mt0 mr1 ml1">Established in 2018, Spinny Nights is based in Bristol, UK. We run a record label, organise nights and manage artists.</p>
+<h2 class="f7 ml1 mr1 mb1">RELEASES</h2>
+<div class="flex flex-wrap">
+      <div class="db mw4 black mr1 ml1">
+        <div class="w4 h4 bg-near-white ba b--black-10"></div>
+        <dl class="mt2 f7">
+          <dd class="ml0 f7 gray">Coming soon...</dd>
+          <dd class="ml0 gray"></dd>
+        </dl>
+      </div>
+  {% for releases in collections.releases | reverse %}
+    <div class="db mw4 black mr1 ml1">
+      <a class="link dim" href="{{ releases.url }}">
+        <img class="" alt="" src="{{ releases.data.image }}">
+      </a>
+        <dl class="mt2 f7">
+          <dd class="ml0 f7">{{ releases.data.artist }}</dd>
+          <dd class="ml0 gray">{{ releases.data.release }} ({{ releases.data.date | dateYear }})</dd>
+          <a href="{{ releases.data.link }}" class="flex items-center link dib">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <dd class="ml0 gray link dim dib">Play</dd>
+          </a>
+        </dl>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="">
+  <div class="overflow-auto mr1 ml1">
+    <table class="f7 w-100" cellspacing="0">
+      <thead>
+        <tr>
+          <th class="f7 bb b--black-20 tl pb1 pr3 bg-white">Nights</th>
+          <th class="f7 bb b--black-20 tl pb1 pr3 bg-white">Date</th>
+          <th class="f7 bb b--black-20 tl pb1 pr3 bg-white">Link</th>
+        </tr>
+      </thead>
+  
+      <tbody class="lh-copy">
+            {% for nights in collections.nights | reverse %}
+            
+              <tr class="striped--near-white dim">
+                <td class="pv1 pr3 b--black-20">{{ nights.data.title }}</td>
+                <td class="pv1 pr3 b--black-20">{{ nights.data.date | postDate }}</td>
+                <td class="pv1 pr3 b--black-20"><a href="{{ nights.data.link }}">Link</a></td>
+              </tr>
+            {% endfor %}
+      </tbody>
+
+    </table>
+  </div>
+</div>
+
+
+
+ {% include 'newsletter.njk' %}
