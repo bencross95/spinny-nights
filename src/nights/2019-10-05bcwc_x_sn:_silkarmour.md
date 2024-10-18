@@ -1,6 +1,5 @@
 ---
-title: SN x BCWC Silkarmour, Park Motive, Norman, Platonica Erotica | The Old
-  Blue Last
+title: SNxBCWC Silkarmour, Park Motive, Norman, Platonica Erotica | The Old Blue Last
 tags:
   - bcwc_x_sn:_silkarmour
   - park_motive
