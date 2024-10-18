@@ -1,5 +1,5 @@
 ---
-title: SN3 Elliot Brett, Park Motive Ensemble, J Samrai
+title: SN3 Elliot Brett, Park Motive Ensemble, J Samrai | The Louisiana
 tags:
   - elliot_brett
   - park_motive_ensemble
