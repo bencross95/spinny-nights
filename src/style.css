@@ -9,3 +9,23 @@ body {
                     serif;
     
 }
+
+
+h1 {
+    font-size: 0.75em;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 0.75em;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 0.75em;
+    line-height: 1.15;
+}
+
+.content-flexbox {
+    height: 100dvh;
+}

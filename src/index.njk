@@ -4,16 +4,25 @@ description: Spinny Nights
 layout: base.njk
 ---
 
-
+<p class="f7 mb0 mt0 mr1 ml1">Established in 2018, Spinny Nights is based in Bristol, UK. We run a record label, organise nights and manage artists.</p>
 <h2 class="f7 ml1 mr1 mb1">RELEASES</h2>
 <div class="flex flex-wrap">
+      <div class="db mw4 black mr1 ml1">
+        <div class="w4 h4 bg-near-white ba b--black-10"></div>
+        <dl class="mt2 f7">
+          <dd class="ml0 f7 gray">Coming soon...</dd>
+          <dd class="ml0 gray"></dd>
+        </dl>
+      </div>
   {% for releases in collections.releases | reverse %}
     <div class="db mw4 black mr1 ml1">
+      <a class="link dim" href="{{ releases.url }}">
         <img class="" alt="" src="{{ releases.data.image }}">
+      </a>
         <dl class="mt2 f7">
           <dd class="ml0 f7">{{ releases.data.title }}</dd>
           <dd class="ml0 gray">{{ releases.data.description }} ({{ releases.data.date | dateYear }})</dd>
-          <a href="" class="flex items-center link">
+          <a href="{{ releases.data.link }}" class="flex items-center link dib">
             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>

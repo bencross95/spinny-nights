@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+    <link rel="icon" type="image/png" href="/assets/images/favicon.png" />
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    {% include 'header.njk' %}
-    {{ content | safe }}
-    {% include 'footer.njk' %}
+    <div class="content-flexbox flex flex-column justify-between">
+        <div>
+            <header>{% include 'header.njk' %}</header>
+            {{ content | safe }}
+        </div>
+        <footer>{% include 'footer.njk' %}</footer>
+    </div>
 </body>
 </html>

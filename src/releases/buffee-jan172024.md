@@ -7,3 +7,5 @@ image: /assets/images/buffee1.jpg
 link: www.example.com
 ---
 
+**Artist**: BUFFEE
+**Release Title**: Victory Lap
