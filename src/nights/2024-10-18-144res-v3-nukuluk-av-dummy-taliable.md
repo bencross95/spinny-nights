@@ -1,5 +1,5 @@
 ---
-title: "144res V3: Nukuluk, AV Dummy, TaliaBle"
+title: "144res V3: Nukuluk, AV Dummy, TaliaBle | Bermondsey Social Club"
 tags:
   - "144res V3: Nukuluk"
   - AV Dummy
