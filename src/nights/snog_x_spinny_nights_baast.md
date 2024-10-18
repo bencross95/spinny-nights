@@ -1,5 +1,5 @@
 ---
-title: Spinny Nights BAAST, Lynks, Chikaya | The Old England
+title: SN18 BAAST, Lynks, Chikaya | The Old England
 tags:
   - baast
   - lynks
