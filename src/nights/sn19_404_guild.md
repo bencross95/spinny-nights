@@ -1,6 +1,10 @@
 ---
-title: "404 Guild / Kinlaw x Franco Franco / Grove / First Crimes (IVW 2020)"
+title: SN19 404 Guild, Kinlaw x Franco Franco, Grove, First Crimes | The Old England
+tags:
+  - 404_guild
+  - kinlaw_x_franco_franco
+  - grove
+  - first_crimes
 date: 2020-01-31
-tags: ['404_guild', 'kinlaw_x_franco_franco', 'grove', 'first_crimes']
+link: https://www.facebook.com/events/424649725088179/
 ---
-
