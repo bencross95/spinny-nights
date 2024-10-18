@@ -1,5 +1,5 @@
 ---
-title: SN2 Rosa Cecilia, Chicken Picnic
+title: SN2 Rosa Cecilia, Chicken Picnic | Cafe Kino
 tags:
   - rosa_cecilia
   - chicken_picnic
