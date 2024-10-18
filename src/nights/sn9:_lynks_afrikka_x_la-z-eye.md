@@ -1,6 +1,8 @@
 ---
-title: SN9 Lynks Afrikka x La-Z-Eye
-date: 2024-10-09 
-tags: ['lynks', 'la-z-eye']
+title: SN9 Lynks Afrikka, La-Z-Eye, Hana | The Love Inn
+tags:
+  - lynks
+  - la-z-eye
+date: 2018-10-09T00:00:00.000Z
+link: https://www.facebook.com/events/217169228969894/
 ---
-
