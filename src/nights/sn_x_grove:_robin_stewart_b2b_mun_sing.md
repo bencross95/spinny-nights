@@ -1,5 +1,5 @@
 ---
-title: SN x Grove Robin Stewart b2b Mun Sing, Ani Klang, Avon Terror Corps |
+title: SNxGrove Robin Stewart b2b Mun Sing, Ani Klang, Avon Terror Corps |
   Crofters Rights
 tags:
   - grove
