@@ -1,9 +1,12 @@
 ---
-title: Tlya X An
-description: TXN
+title: Tlya X An - TXN
+artist: Tlya X An
+release: TXN
 date: 2023-04-27
 tags: tlya_x_an
 image: /assets/images/txn.jpg
+imageAlt: release cover
+link: www.example.com
 ---
 
 **Artist**: Tlya X An  

@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "public/assets/images" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/assets/images" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: "releases"
+    label: "Releases"
+    folder: "src/releases"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Artist (artist/s all lowercase with underlines as spaces", name: "artist", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Release title", name: "release", widget: "string"}
+      - {label: "Release Date", name: "date", widget: "datetime"}
+      - {label: "Cover", name: "image", widget: "image"}
+      - {label: "Listen link", name: "link", widget: "string"}
+      - {label: "Image alt text", name: "imageAlt", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "nights"
+    label: "Nights"
+    folder: "src/nights"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Tags (artists all lowercase with underlines as spaces)", name: "tags", widget: "list"}}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Link", name: "link", widget: "string"}
+   

@@ -1,9 +1,12 @@
 ---
-title: Park Motive
-description: Duuust
+title: Park Motive - Duuust
+artist: Park Motive
+release: Duuust
 date: 2022-09-07
 tags: park_motive
 image: /assets/images/dust.jpg
+imageAlt: release cover
+link: www.example.com
 ---
 
 **Artist**: Park Motive  

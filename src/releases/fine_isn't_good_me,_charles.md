@@ -1,9 +1,12 @@
 ---
-title: Me, Charles
-description: Fine Isn't Good
+title: Me, Charles - Fine Isn't Good
+artist: Me, Charles
+release: Fine Isn't Good
 date: 2023-04-10
 tags: me,_charles
 image: /assets/images/charles.jpg
+imageAlt: release cover
+link: www.example.com
 ---
 
 **Artist**: Me, Charles  

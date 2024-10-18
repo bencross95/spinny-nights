@@ -20,8 +20,8 @@ layout: base.njk
         <img class="" alt="" src="{{ releases.data.image }}">
       </a>
         <dl class="mt2 f7">
-          <dd class="ml0 f7">{{ releases.data.title }}</dd>
-          <dd class="ml0 gray">{{ releases.data.description }} ({{ releases.data.date | dateYear }})</dd>
+          <dd class="ml0 f7">{{ releases.data.artist }}</dd>
+          <dd class="ml0 gray">{{ releases.data.release }} ({{ releases.data.date | dateYear }})</dd>
           <a href="{{ releases.data.link }}" class="flex items-center link dib">
             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
               <polyline points="9 18 15 12 9 6"></polyline>

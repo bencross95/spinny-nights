@@ -1,9 +1,11 @@
 ---
-title: BUFFEE
-description: Victory Lap
+title: BUFFEE - Victory Lap
+artist: BUFFEE
+release: Victory Lap
 date: 2024-01-17
 tags: ["cix"]
 image: /assets/images/buffee1.jpg
+imageAlt: release cover
 link: www.example.com
 ---
 

@@ -1,9 +1,12 @@
 ---
-title: Robbie & Mona
-description: Tusky
+title: Robbie & Mona - Tusky
+artist: Robbie & Mona
+release: Tusky
 date: 2023-03-10
 tags: robbie_&_mona
 image: /assets/images/rmtusky.jpg
+imageAlt: release cover
+link: www.example.com
 ---
 
 **Artist**: Robbie & Mona  
