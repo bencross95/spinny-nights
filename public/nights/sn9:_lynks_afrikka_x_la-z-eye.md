@@ -1,5 +1,5 @@
 ---
-title: SN9 Lynks Afrikka, La-Z-Eye, Hana | The Love Inn
+title: SN9 Lynks, La-Z-Eye, Hana | The Love Inn
 tags:
   - lynks
   - la-z-eye

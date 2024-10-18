@@ -7,15 +7,15 @@ layout: base.njk
 <p class="f7 mb0 mt0 mr1 ml1">Established in 2018, Spinny Nights is based in Bristol, UK. We run a record label, organise nights and manage artists.</p>
 <h2 class="f7 ml1 mr1 mb1">RELEASES</h2>
 <div class="flex flex-wrap">
-      <div class="db mw4 black mr1 ml1">
-        <div class="w4 h4 bg-near-white ba b--black-10"></div>
+      <div class="db mw4 black mr1 ml1 release-item">
+        <div class="coming-soon bg-near-white ba b--black-10"></div>
         <dl class="mt2 f7">
           <dd class="ml0 f7 gray">Coming soon...</dd>
           <dd class="ml0 gray"></dd>
         </dl>
       </div>
   {% for releases in collections.releases | reverse %}
-    <div class="db mw4 black mr1 ml1">
+    <div class="db mw4 black mr1 ml1  release-item">
       <a class="link dim" href="{{ releases.url }}">
         <img class="" alt="" src="{{ releases.data.image }}">
       </a>

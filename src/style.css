@@ -29,3 +29,18 @@ p {
 .content-flexbox {
     height: 100dvh;
 }
+
+.release-item {
+    width: 100%;
+    @media screen and (max-width: 500px) {
+        width: 84px;
+    }
+}
+
+.coming-soon {
+    height: 8rem;
+    @media screen and (max-width: 500px) {
+        height: 84px;
+        width: 84px;
+    }
+}
