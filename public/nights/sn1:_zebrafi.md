@@ -1,5 +1,9 @@
 ---
-title: ZeBraFi, La-Z-Eye, Laika
-date: 2024-02-07
-tags: ['zebrafi', 'la-z-eye', 'laika']
+title: SN1 ZeBraFi, La-Z-Eye, Laika | The Old England
+tags:
+  - zebrafi
+  - la-z-eye
+  - laika
+date: 2018-02-07T00:00:00.000Z
+link: https://www.facebook.com/events/1691398634215280
 ---
