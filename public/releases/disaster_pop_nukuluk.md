@@ -13,3 +13,5 @@ link: www.example.com
 **Release Title**: DISASTER POP
 
 Nukuluk is an experimental hip-hop collective based in South London. Their chaotic sound draws off a series of eureka moments during studio play, a broad church of influence and a symbiotic relationship within the group.
+
+![](/assets/images/disasterpop.jpg)

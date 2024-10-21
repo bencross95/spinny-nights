@@ -17,3 +17,5 @@ A scolding critique of a ‘masc4masc’, straight-worshipping trend proliferati
 A performer, an entrepreneur, and now a religion∗, Lynks is set for world domination. Written on the long walk home from a sweaty, sticky, sexually-predatory straight-club, ‘Str8 Acting’ is a frenetic deconstruction of club music, all held together by Lynk’s urgent confessions. The track has since been re-released, but we are proud to have started the label with such a bang.
 
 ∗ disciples include Elton John
+
+![](/assets/images/990-lynks-sq-1.jpeg)

@@ -11,3 +11,5 @@ link: www.example.com
 
 **Artist**: BUFFEE
 **Release Title**: Victory Lap
+
+![](/assets/images/buffee1.jpg)

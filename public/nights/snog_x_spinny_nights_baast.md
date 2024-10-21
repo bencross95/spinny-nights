@@ -1,5 +1,5 @@
 ---
-title: SN18 BAAST, Lynks, Chikaya | The Old England
+title: SNxSNG BAAST, Lynks, Chikaya | The Old England
 tags:
   - baast
   - lynks
