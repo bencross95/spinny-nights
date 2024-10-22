@@ -37,7 +37,7 @@ layout: base.njk
 <div class="flex flex-wrap">
   {% for merch in collections.merch | reverse %}
     <div class="db mw4 black mr1 ml1  release-item">
-      <a class="link dim" href="{{ merch.url }}">
+      <a class="link dim" href="{{ merch.data.link }}">
         <img class="" alt="" src="{{ merch.data.image }}">
       </a>
         <dl class="mt2 f7">
