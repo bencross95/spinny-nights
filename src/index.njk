@@ -5,7 +5,7 @@ layout: base.njk
 ---
 
 <p class="f7 mb0 mt0 mr1 ml1">Established in 2018, Spinny Nights is based in Bristol, UK. We run a record label, organise nights and manage artists.</p>
-<h2 class="f7 ml1 mr1 mb1">RELEASES</h2>
+<h2 class="f7 ml1 mr1 mb1">Releases</h2>
 <div class="flex flex-wrap">
       <div class="db mw4 black mr1 ml1 release-item">
         <div class="coming-soon bg-near-white ba b--black-10"></div>
@@ -32,6 +32,30 @@ layout: base.njk
       </div>
     {% endfor %}
   </div>
+
+<h2 class="f7 ml1 mr1 mb1">Records & Merch</h2>
+<div class="flex flex-wrap">
+  {% for merch in collections.merch | reverse %}
+    <div class="db mw4 black mr1 ml1  release-item">
+      <a class="link dim" href="{{ merch.url }}">
+        <img class="" alt="" src="{{ merch.data.image }}">
+      </a>
+        <dl class="mt2 f7">
+          <dd class="ml0 f7">{{ merch.data.artist }}</dd>
+          <dd class="ml0 gray">{{ merch.data.description }}</dd>
+          <a href="{{ merch.data.link }}" class="flex items-center link dib">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+              <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <dd class="ml0 gray link dim dib">View</dd>
+          </a>
+        </dl>
+      </div>
+    {% endfor %}
+  </div>
+
+
+
 
   <div class="">
   <div class="overflow-auto mr1 ml1">
