@@ -1,6 +1,5 @@
 ---
-title: Grove - Queer + Black
-artist: Grove
+title: Grove
 description: Queer + Black Vinyl
 date: 2021-02-23
 tags: grove

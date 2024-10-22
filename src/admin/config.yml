@@ -36,7 +36,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Artist", name: "artist", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Tags (artist/s all lowercase with underlines as spaces", name: "tags", widget: "list"}
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image alt text", name: "imageAlt", widget: "string"}
