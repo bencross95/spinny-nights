@@ -60,3 +60,8 @@ p {
     opacity: .8;
     transition: opacity 0s ease-out;
 }
+
+.merch-img {
+    border: 1px solid rgba(0, 0, 0, .1);;
+    box-sizing: border-box;
+}
