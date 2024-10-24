@@ -23,10 +23,10 @@ layout: base.njk
           <dd class="ml0 f7">{{ releases.data.artist }}</dd>
           <dd class="ml0 gray">{{ releases.data.release }} ({{ releases.data.date | dateYear }})</dd>
           <a href="{{ releases.data.link }}" class="flex items-center link dib">
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+            <svg class="blue" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
-            <dd class="ml0 gray link dim dib">Play</dd>
+            <dd class="ml0 link dim blue dib">Play</dd>
           </a>
         </dl>
       </div>
@@ -44,10 +44,10 @@ layout: base.njk
           <dd class="ml0 f7">{{ merch.data.title }}</dd>
           <dd class="ml0 gray">{{ merch.data.description }}</dd>
           <a href="{{ merch.data.link }}" class="flex items-center link dib">
-            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+            <svg class="blue" xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
               <polyline points="9 18 15 12 9 6"></polyline>
             </svg>
-            <dd class="ml0 gray link dim dib">View</dd>
+            <dd class="ml0 blue link dim dib">View</dd>
           </a>
         </dl>
       </div>
@@ -72,7 +72,7 @@ layout: base.njk
               <tr class="striped--near-white dim">
                 <td class="pv1 pr3 b--black-20">{{ nights.data.title }}</td>
                 <td class="pv1 pr3 b--black-20">{{ nights.data.date | postDate }}</td>
-                <td class="pv1 pr3 b--black-20"><a href="{{ nights.data.link }}">Link</a></td>
+                <td class="pv1 pr3 b--black-20"><a href="{{ nights.data.link }}" class="blue">Link</a></td>
               </tr>
             {% endfor %}
       </tbody>
