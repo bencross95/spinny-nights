@@ -44,3 +44,19 @@ p {
         width: 84px;
     }
 }
+
+
+.dim {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity 0s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity 0s ease-out;
+}

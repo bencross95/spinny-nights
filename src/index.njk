@@ -16,7 +16,7 @@ layout: base.njk
       </div>
   {% for releases in collections.releases | reverse %}
     <div class="db mw4 black mr1 ml1  release-item">
-      <a class="link dim" href="{{ releases.url }}">
+      <a class="dim" href="{{ releases.url }}">
         <img class="" alt="" src="{{ releases.data.image }}">
       </a>
         <dl class="mt2 f7">
@@ -53,8 +53,6 @@ layout: base.njk
       </div>
     {% endfor %}
   </div>
-
-
 
 
   <div class="">
