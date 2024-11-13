@@ -1,5 +1,12 @@
-  <h2 class="f7 mt3 mr1 ml1">Newsletter</h2>
-  <style>
+<div class="mr1 ml1">
+    <a href="/" class="link black dib">
+        <h1 class="f7 mb0 mt1 dim link">SPINNY NIGHTS</h1>
+    </a>
+</div>
+
+<p class="f7 mb0 mt0 mr1 ml1">Established in 2018, Spinny Nights is based in Bristol, UK. We run a record label, organise nights and manage artists.</p>
+
+<style>
     type="text/css"
     /* LOADER */
     .ml-form-embedSubmitLoad {
@@ -117,9 +124,13 @@
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
-      color: #000000;
+      padding-bottom: 12px;
+      color: black;
       margin: 0 0 10px;
       text-align: left;
+      font-family: univers system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, athelas,
+                    georgia,
+                    serif;
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ul,
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent ol,
@@ -156,11 +167,23 @@
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody form {
       margin: 0;
       width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+
+      @media (max-width: 400px) {
+          flex-direction: column;
+      }
+
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent,
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
-      margin: 0 0 8px;
+      margin: 0 0 0px;
       width: 100%;
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      height:32px !important
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow {
       float: left;
@@ -173,8 +196,9 @@
       float: left;
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow {
-      margin: 0 0 8px;
+      margin: 0 0 0px;
       width: 100%;
+      height: 32px;
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-fieldRow.ml-last-item {
       margin: 0;
@@ -189,11 +213,10 @@
       border-radius: 2px !important;
       border-style: solid !important;
       border-width: 1px !important;
-      height: auto;
+      height: 32px;
       line-height: 1.5 !important;
       margin: 0 !important;
       padding: 4px 4px !important;
-      width: 100% !important;
       box-sizing: border-box !important;
       padding: 4px !important;
       
@@ -545,7 +568,7 @@
       font-size: 0.75rem !important;
       font-weight: bold !important;
       line-height: 1.5 !important;
-      height: auto;
+      height: 32px;
       padding: 8px !important;
       width: 100% !important;
       box-sizing: border-box !important;
@@ -554,7 +577,8 @@
       display: none;
     }
     #mlb2-18961450.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button:hover {
-      background-color: #cccc45 !important;
+      background-color: black !important;
+      color: #ffffff !important;
     }
     .ml-subscribe-close {
       width: 30px;
@@ -748,7 +772,19 @@
         line-height: 1.5 !important;
       }
     }
+
+     .forceheight {
+      height: 32px !important;
+      @media (max-width: 768px) {
+        height: auto !important;
+      }
+      }
   </style>
+  
+  <div class="flex justify-left">
+    
+    <div class="">
+      <h2 class="f7 mt2 mr1 ml1 mb1">Newsletter</h2>
   <div id="mlb2-18961450" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-18961450">
     <div class="ml-form-align-center ">
       <div class="ml-form-embedWrapper embedForm">
@@ -756,7 +792,7 @@
           <div class="ml-form-embedContent" style=" ">
           </div>
           <form
-            class="ml-block-form"
+            class="ml-block-form forceheight"
             action="https://assets.mailerlite.com/jsonp/1147462/forms/135354671344650181/subscribe"
             data-code=""
             method="post"
@@ -815,7 +851,7 @@
                 <!-- Privacy policy -->
                 <input type="hidden" name="ml-submit" value="1">
                   <div class="ml-form-embedSubmit">
-                    <button type="submit" class="primary">Subscribe</button>
+                    <button type="submit" class="primary">Submit</button>
                     <button disabled="disabled" style="display: none;" type="button" class="loading">
                       <div class="ml-form-embedSubmitLoad"></div>
                       <span class="sr-only">Loading...</span>
@@ -824,14 +860,20 @@
                   <input type="hidden" name="anticsrf" value="true"></form>
                 </div>
                 <div class="ml-form-successBody row-success" style="display: none">
-                  <div class="ml-form-successContent">
-                    <h4>Thank you!</h4>
-                    <p>You have successfully joined our subscriber list.</p>
+                  <div class="ml-form-successContent">                  
+                    <p>Thank you for signing up</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
           <script>
             function ml_webform_success_18961450() {
               var $ = ml_jQuery || jQuery;
