@@ -27,7 +27,7 @@ p {
 }
 
 .content-flexbox {
-    height: 100dvh;
+    height: 100%;
 }
 
 .release-item {
