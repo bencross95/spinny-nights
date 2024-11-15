@@ -1,10 +1,10 @@
 ---
 title: Lynks - Str8 Acting
 artist: Lynks
+tags: lynks
 release: Str8 Acting
-date: 2020-07-01T19:00:31.748Z
-tags: "lynks"
-image: /assets/images/990-lynks-sq-1.jpeg
+date: 2019-05-28T20:00:00.000Z
+image: /assets/images/screenshot-2024-11-15-at-22.09.36.png
 imageAlt: release cover
 link: https://open.spotify.com/track/7g1R3Hd3BmYtTE1j4Jlsyi?si=2d17072188544759
 ---
