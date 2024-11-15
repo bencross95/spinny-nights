@@ -1,15 +1,17 @@
 ---
 title: BUFFEE - Victory Lap
 artist: BUFFEE
+tags:
+  - cix
 release: Victory Lap
 date: 2024-01-17
-tags: ["cix"]
 image: /assets/images/buffee1.jpg
 imageAlt: release cover
-link: www.example.com
+link: https://bfan.link/victory-lap-1
 ---
-
 **Artist**: BUFFEE
 **Release Title**: Victory Lap
 
-![](/assets/images/buffee1.jpg)
+Mixing industrial ambient soundscapes with hardstyle and ethereal vocals, BUFFEE processes her teenage years through experimenting with the limits of what club music has to offer.
+
+![](/assets/images/press-g-4-.png)
