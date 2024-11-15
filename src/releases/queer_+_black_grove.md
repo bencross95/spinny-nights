@@ -8,11 +8,10 @@ image: /assets/images/queerblack.jpg
 imageAlt: release cover
 link: https://bfan.link/queer-black-2
 ---
-
-**Artist**: Grove  
+**Artist**: Grove\
 **Release Title**: Queer + Black
 
 Grove is a Bristol-based artist, DJ and producer. Their debut EP 'Queer + Black' is an exploration of identity, both personal and political - a deft combination of sharp hooks and splintering beats beamed in from a club in 3021 AD.
 
-![](/assets/images/queerblack.jpg)
+
 ![](/assets/images/grovepress.jpg)
