@@ -1,12 +1,12 @@
 ---
-title: Robbie & Mona
+title: Robbie & Mona - EW
 artist: Robbie & Mona
+tags: robbie_&_mona
 release: EW
 date: 2021-01-01
-tags: robbie_&_mona
 image: /assets/images/ew.jpg
 imageAlt: release cover
-link: www.example.com
+link: https://bfan.link/ew
 ---
 
 **Artist**: Robbie & Mona  
