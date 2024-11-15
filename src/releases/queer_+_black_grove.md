@@ -1,12 +1,12 @@
 ---
 title: Grove - Queer + Black
 artist: Grove
+tags: grove
 release: Queer + Black
 date: 2021-02-23
-tags: grove
 image: /assets/images/queerblack.jpg
 imageAlt: release cover
-link: www.example.com
+link: https://bfan.link/queer-black-2
 ---
 
 **Artist**: Grove  
