@@ -4,7 +4,7 @@ artist: BUFFEE
 tags:
   - cix
 release: Victory Lap
-date: 2024-01-17
+date: 2023-11-15T00:00:00.000Z
 image: /assets/images/buffee1.jpg
 imageAlt: release cover
 link: https://bfan.link/victory-lap-1
