@@ -4,7 +4,7 @@ artist: Robbie & Mona
 tags: robbie_&_mona
 release: EW
 date: 2021-01-01
-image: /assets/images/ew.jpg
+image: /assets/images/robbie-mona4.jpg
 imageAlt: release cover
 link: https://bfan.link/ew
 ---
