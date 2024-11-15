@@ -6,7 +6,7 @@ release: Fine Isn't Good
 date: 2023-05-10T00:00:00.000Z
 image: /assets/images/charles.jpg
 imageAlt: release cover
-link: www.example.com
+link: https://bfan.link/fine-isn-t-good
 ---
 **Artist**: Me, Charles\
 **Release Title**: Fine Isn't Good
