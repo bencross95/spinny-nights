@@ -1,6 +1,6 @@
 ---
 title: Spank Holiday Lynks, Robbie & Mona, Grove X Diessa (DJ), Park Motive,
-  Nukuluk, CIX
+  Nukuluk, CIX | Crofters Rights
 tags:
   - lynks
   - robbie_&_mona
