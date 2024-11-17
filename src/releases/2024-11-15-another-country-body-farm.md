@@ -1,6 +1,8 @@
 ---
 title: Another; Country $$$$ - BODY FARM
 artist: Another; Country $$$$
+tags:
+  - another;_country_$$$$
 release: BODY FARM
 date: 2024-11-06T23:17:00.000Z
 image: /assets/images/001.-bdyfrm_main_art_mu2-1-.jpeg
