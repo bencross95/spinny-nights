@@ -1,5 +1,5 @@
 ---
-title: SN25 REBEL YELL, Pillow Pro, Tlya X An
+title: SN25 REBEL YELL, Pillow Pro, Tlya X An | Crofters Rights
 tags:
   - rebel_yell
   - pillow_pro
