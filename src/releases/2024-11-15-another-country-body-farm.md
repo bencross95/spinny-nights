@@ -9,7 +9,7 @@ image: /assets/images/001.-bdyfrm_main_art_mu2-1-.jpeg
 imageAlt: bodyfarmcover
 link: https://bfan.link/body-farm
 ---
-**Artist**: Another; Country $$$$
+**Artist**: Another; Country $$$$\
 **Release Title**: BODY FARM
 
 ‘BODY FARM’, the new single from electronic duo Another; Country $$$$, is a surging cascade of rhythms and textures that flirts with discordance before throbbing into euphonic harmony. It’s a rippling mosaic of a song; one that manages to skilfully merge melancholic piano sequences with frenetic breakcore live drums and folding ambient post-rock introspections with UKG bassline. 
