@@ -9,7 +9,7 @@ link: https://bfan.link/black-unicorn-reprise-dance-of-osiris
 ---
 **Artist:** seigfried komidashi
 
-**Release title:** seigfried komidashi
+**Release title:** black unicorn (reprise) / dance of osiris
 
 Adebola Oyekanmi is an artist, musician, poet (a.k.a seigfried komidashi sockless adventurer et al.) hailing from the Yoruba tribe, working with various mediums to engages in afrofuturist and afro-surrealist discourse on time, space and nostalgia in a neocolonial information age.
 
