@@ -1,7 +1,7 @@
 ---
-title: black unicorn (reprise) / dance of osiris
+title: "seigfried komidashi "
 artist: "seigfried komidashi "
-release: seigfried komidashi
+release: black unicorn (reprise) / dance of osiris
 date: 2024-11-28T16:35:00.000Z
 image: /assets/images/leopard-under-black-sun-album-artwork-1-.jpg
 imageAlt: seigfried
