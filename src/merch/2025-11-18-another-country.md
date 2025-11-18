@@ -1,5 +1,5 @@
 ---
-title: "Another Country "
+title: Another Country $$$$
 description: CD
 tags: []
 image: /assets/images/mock-up-square.png
