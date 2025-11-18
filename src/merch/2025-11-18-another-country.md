@@ -1,6 +1,6 @@
 ---
 title: Another Country $$$$
-description: CD
+description: CURSED FRAME CD
 tags: []
 image: /assets/images/mock-up-square.png
 imageAlt: ac$ cursed frame CD
