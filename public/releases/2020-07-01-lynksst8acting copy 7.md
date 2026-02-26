@@ -8,7 +8,7 @@ image: /assets/images/screenshot-2024-11-15-at-22.09.36.png
 imageAlt: release cover
 link: https://open.spotify.com/track/7g1R3Hd3BmYtTE1j4Jlsyi?si=2d17072188544759
 ---
-**Artist**: Lynks
+**Artist**: Lynks\
 **Release Title**: Str8 Acting
 
 A scolding critique of a ‘masc4masc’, straight-worshipping trend proliferating in queer culture.[](https://open.spotify.com/track/7g1R3Hd3BmYtTE1j4Jlsyi?si=2d17072188544759)

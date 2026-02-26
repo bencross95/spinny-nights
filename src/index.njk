@@ -26,7 +26,7 @@ layout: base.njk
   {% for releases in collections.releases | reverse %}
     <div class="db mw4 black mr1 ml1  release-item">
       <a class="dim" href="{{ releases.url }}">
-        <img class="" alt="" src="{{ releases.data.image }}">
+        <img class="" alt="" src="{{ releases.data.image }}" sizes="128px">
       </a>
         <dl class="mt2 f7">
           <dd class="ml0 f7">{{ releases.data.artist }}</dd>
@@ -47,7 +47,7 @@ layout: base.njk
   {% for merch in collections.merch | reverse %}
     <div class="db mw4 black mr1 ml1  release-item">
       <a class="dim" href="{{ merch.data.link }}">
-        <img class="merch-img" alt="" src="{{ merch.data.image }}">
+        <img class="merch-img" alt="" src="{{ merch.data.image }}" sizes="128px">
       </a>
         <dl class="mt2 f7">
           <dd class="ml0 f7">{{ merch.data.title }}</dd>
